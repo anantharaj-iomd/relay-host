@@ -1,5 +1,5 @@
 (() => {
-  const CHANNEL_NAME = "nodeAI-CheckoutUI";
+  const CHANNEL_NAME = "nodeAI-BroadCastChannel";
 
   try {
     const bc = new BroadcastChannel(CHANNEL_NAME);
