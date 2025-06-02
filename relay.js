@@ -9,7 +9,7 @@
   console.log("[nodeAI Relay] Thank You page detected ✅");
 
   try {
-    const bc = new BroadcastChannel("nodeAI-CheckoutUI");
+    const bc = new BroadcastChannel("nodeAI-BroadCastChannel");
 
     bc.onmessage = (event) => {
       console.log("[nodeAI Relay] Message received via BroadcastChannel:", event.data);
