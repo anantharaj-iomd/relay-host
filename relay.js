@@ -1,4 +1,7 @@
 (() => {
+
+  console.log("[nodeAI Relay] relay.js loaded ✅");
+  
   const CHANNEL_NAME = "nodeAI-BroadCastChannel";
 
   try {
