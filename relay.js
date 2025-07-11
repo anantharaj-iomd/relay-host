@@ -1,4 +1,5 @@
 (() => {
+  return;
   console.log("[nodeAI Relay] relay.js loaded ✅");
 
    if (!window.location.pathname.includes("/checkouts") && !window.location.pathname.includes("/thank_you")) {
